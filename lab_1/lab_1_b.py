@@ -47,7 +47,7 @@ class PriorityQueue():
         the highest priority.
 
         NOTE: if the priorities are same for certain values, return the 
-        value that was recently inserted.
+        value that was inserted first.
 
         :return: value with highest priority
         """
@@ -60,7 +60,7 @@ class PriorityQueue():
         Delete the item with the highest priority.
 
         NOTE: if the priorities are same for certain values, remove the 
-        value that was recently inserted.
+        value that was inserted first.
 
         :return: None
         """
