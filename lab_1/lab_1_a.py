@@ -22,7 +22,7 @@ class Queue():
     def __init__(self):
         self.queue = [] # list to hold the elements
 
-    def __enqueue(self, value):
+    def enqueue(self, value):
         """
         Add the value to the list.
 
@@ -34,7 +34,7 @@ class Queue():
         # enter your code below
         pass # remove this line once you start filling in the code
 
-    def __dequeue(self):
+    def dequeue(self):
         """
         Remove and return the item from the list.
 
@@ -44,7 +44,7 @@ class Queue():
         # enter your code below
         pass # remove this line once you start filling in the code
 
-    def __front(self):
+    def front(self):
         """
         Get the front item form the queue.
 
@@ -54,7 +54,7 @@ class Queue():
         # enter your code below
         pass # remove this line once you start filling in the code
 
-    def __rear(self):
+    def rear(self):
         """
         Get the last item form the queue.
 

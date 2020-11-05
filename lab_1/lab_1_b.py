@@ -25,7 +25,7 @@ class PriorityQueue():
     def __init__(self):
         self.queue = [] # list to hold items in a priority queue manner
 
-    def __insert(self, value, priority):
+    def insert(self, value, priority):
         """
         Inserts the value along with the priority in the queue.
         The value and priority should be inserted as a tuple (value, priority) in the queue.
@@ -41,7 +41,7 @@ class PriorityQueue():
         # enter your code below
         pass # remove this line once you start filling in the code
 
-    def __get_highest_priority(self):
+    def get_highest_priority(self):
         """
         Search of the highest priority item and return the value with
         the highest priority.
@@ -55,7 +55,7 @@ class PriorityQueue():
         # enter your code below
         pass # remove this line once you start filling in the code
 
-    def __delete_highest_priority(self):
+    def delete_highest_priority(self):
         """
         Delete the item with the highest priority.
 
