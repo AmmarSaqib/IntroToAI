@@ -4,7 +4,7 @@ import heapq
 class PriorityQueue:
 
     """
-    The class provides an implementation of priority queses via min heaps. This class has basic interation functions.
+    The class provides an implementation of priority queses via min heaps. This class has basic functions of a priority queue.
     """
 
     def __init__(self):
@@ -49,6 +49,7 @@ class PriorityQueue:
         return len(self.__queue) == 0
     
 if __name__ == "__main__":
+    
     # testing priority queue
     queue = PriorityQueue()
     queue.insert('e', 9)
