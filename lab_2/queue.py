@@ -28,12 +28,17 @@ class PriorityQueue:
     def remove(self):
         """
         The functions removes the lowest priority item from the priority queue (via heaps)
-        and returns it.
+        and returns the item along with the cost of it.
 
         :return : the item with the lowest priority
         """
-    
-        return heapq.heappop(self.__queue)[-1]
+
+        temp = heapq.heappop(self.__queue)
+        
+        cost = temp[0]
+        item = temp[-1]
+
+        return cost, item
 
     def is_empty(self):
         """
@@ -43,3 +48,13 @@ class PriorityQueue:
         """
         return len(self.__queue) == 0
     
+if __name__ == "__main__":
+    # testing priority queue
+    queue = PriorityQueue()
+    queue.insert('e', 9)
+    queue.insert('a', 2)
+    queue.insert('h', 13)
+    queue.insert('c', 11)
+    print(queue.remove())
+    print(queue.remove())
+    print(queue.remove())
