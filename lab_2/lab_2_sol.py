@@ -1,5 +1,21 @@
 """
 Lab Task: 
+
+For this lab you will be implementing Uniform Cost Search on a graph.
+The picture of the graph can be found in assets directory.
+
+For this lab you are provided with two helper classes.
+One is for making a graph and the other one in an interface for Priority Queues.
+You may open then these file, once opened you'll see descriptions for each function defined
+and a testing code for the class in the main body. Kindly go through them to get comfortable 
+with the functions
+
+MAIN TASK:
+The graph provided has already been created below and the UCS (Unifrom cost search) function has been called.
+You are suppose to fill in the UCS function declared below. A description of what the function should do is mentioned.
+Use functions from the helper classes in order to write the UCS function.
+Your function should print the shortest path along with the cost of that path. 
+A sample output is provided in the assests directory.
 """
 
 # importing helper classes
