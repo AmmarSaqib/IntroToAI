@@ -35,6 +35,17 @@ class Graph:
         
         return self.weights[(from_node + to_node)]
 
+    def get_h(self, node):
+        """
+        This function will give our the heuristic from the node to goal.
+
+        :params node: (String) current node / any node
+
+        :return: (int) heuristic to the goal
+        """
+
+        # write your code below 
+        pass
 
 
 if __name__ == "__main__":
@@ -43,25 +54,11 @@ if __name__ == "__main__":
 
     # setting up nodes and neighbours
     graph.edges = {
-        'A': set(['B', 'D']),
-        'B': set(['A','E','C']),
-        'C': set(['B', 'E', 'G']),
-        'D': set(['A','E','F']),
-        'E': set(['B', 'C', 'D', 'G']),
-        'F': set(['D','G']),
-        'G': set(['F','E','C'])
     }
 
     # setting up connection costs
-    graph.weights = {
-        'AB': 5, 'AD': 3,
-        'BA': 5, 'BE': 4, 'BC': 1,
-        'CB': 1, 'CE': 6, 'CG': 8,
-        'DA': 3, 'DE': 2, 'DF': 2,
-        'EB': 4, 'EC': 6, 'ED': 2, 'EG': 4,
-        'FD': 2, 'FG': 3,
-        'GF': 3, 'GE': 4, 'GC': 8
-    }
 
-    print("Neighbours of Node A are:",graph.neighbours('A'))
-    print("Cost going from A to D is:", graph.get_cost('A','D'))
+    # setting up heuristics
+
+    # test functions from the class
+    

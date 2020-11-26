@@ -13,7 +13,7 @@ with the functions
 MAIN TASKS:
 
     1- Modify graph.py to have the ability to store heuristics
-    2- Create a funciton 'get_h' in graph.py to get heuristic for a node
+    2- Create a funciton 'get_h' in graph.py to get heuristic for a node : input will be a Node and output will be heuristic 
     3- Create the graph in graph.py to and check all the functions
     4- Replicate the graph in 'lab_3.py'
     5- Implement A* function 
@@ -53,5 +53,7 @@ if __name__ == "__main__":
     # setting up nodes and neighbours
 
     # setting up connection costs
+
+    # setting up heuristics
 
     a_star_search(graph, 'S', 'G') 
