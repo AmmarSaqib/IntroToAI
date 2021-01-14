@@ -12,7 +12,7 @@
 - should keep track of the data points that belong to a certain cluster
 - return centroids along with the points that belong to them (use Dictionary)
 
-### For data point generate random data in two-dimensional space betweek -5 and 10
+### For data point generate random data in two-dimensional space between -5 and 10
 > see numpy library for that
 
 ### Plot the data points as cluster using Matplotlib
